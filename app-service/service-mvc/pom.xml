@@ -8,7 +8,7 @@
 		<artifactId>app-service</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>app</artifactId>
+	<artifactId>appPc</artifactId>
 	<packaging>war</packaging>
 	<name>zzzApp</name>
 	<url>http://maven.apache.org</url>
@@ -44,6 +44,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>app</finalName>
+		<finalName>appPc</finalName>
 	</build>
 </project>

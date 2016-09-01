@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="app:war exploded">
-    <output-path>$PROJECT_DIR$/app-service/service-mvc/target/app</output-path>
+    <output-path>$PROJECT_DIR$/app-service/service-mvc/target/appPc</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="app" />
+          <element id="module-output" name="appPc" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
@@ -28,7 +28,6 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.6" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.6" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6.SEC03" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.7" />
@@ -42,9 +41,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/app-service/service-mvc/target/app/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/app-service/service-mvc/target/appPc/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="app/web/app" />
+      <element id="javaee-facet-resources" facet="appPc/web/app" />
     </root>
   </artifact>
 </component>

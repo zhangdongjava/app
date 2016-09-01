@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/app-dao/pom.xml" />
         <option value="$PROJECT_DIR$/app-service/pom.xml" />
         <option value="$PROJECT_DIR$/app-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/app/pom.xml" />
       </list>
     </option>
   </component>

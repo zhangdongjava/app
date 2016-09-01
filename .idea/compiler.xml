@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="app" />
         <module name="app-dao" />
+        <module name="appPc" />
         <module name="service-core" />
         <module name="service-face" />
         <module name="zzzApp" />
@@ -34,6 +35,7 @@
       <module name="app-dao" target="1.5" />
       <module name="app-parent" target="1.5" />
       <module name="app-service" target="1.5" />
+      <module name="appPc" target="1.5" />
       <module name="service-core" target="1.5" />
       <module name="service-face" target="1.5" />
       <module name="service-test" target="1.5" />
