@@ -5,6 +5,7 @@ import com.zzz.app.domain.sys.User;
 import com.zzz.app.inner.service.UserService;
 import com.zzz.app.result.EntryResult;
 import com.zzz.app.result.ResultStatus;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.dao.DataAccessException;
  */
 public class ApiUserServiceImpl implements ApiUserService {
 
+    @Autowired
     private UserService userService;
 
     public EntryResult add(User user) {

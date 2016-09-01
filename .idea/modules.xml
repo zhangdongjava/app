@@ -6,9 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/app-dao/app-dao.iml" filepath="$PROJECT_DIR$/app-dao/app-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-parent/app-parent.iml" filepath="$PROJECT_DIR$/app-parent/app-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-service/app-service.iml" filepath="$PROJECT_DIR$/app-service/app-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-service/service-mvc/appPc.iml" filepath="$PROJECT_DIR$/app-service/service-mvc/appPc.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-service/service-core/service-core.iml" filepath="$PROJECT_DIR$/app-service/service-core/service-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-service/service-face/service-face.iml" filepath="$PROJECT_DIR$/app-service/service-face/service-face.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service/service-mvc/win.iml" filepath="$PROJECT_DIR$/app-service/service-mvc/win.iml" />
     </modules>
   </component>
 </project>

@@ -46,7 +46,7 @@
 	<!-- 启用对事务注解的支持 -->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
-	<!--<import resource="classpath:dubbo-spring.xml"/>-->
+	<import resource="classpath:dubbo-spring.xml"/>
 </beans>
 
 

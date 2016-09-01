@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="win:war">
+    <output-path>$PROJECT_DIR$/app-service/service-mvc/target</output-path>
+    <root id="archive" name="appPc.war">
+      <element id="artifact" artifact-name="win:war exploded" />
+    </root>
+  </artifact>
+</component>

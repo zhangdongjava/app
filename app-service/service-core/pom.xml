@@ -48,6 +48,10 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- 这样也可以把所有的xml文件，打包到相应位置。 -->

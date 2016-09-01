@@ -4,6 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/app" />
     <file type="web" url="file://$PROJECT_DIR$/app-service/service-mvc" />
     <file type="web" url="file://D:/Users/dell_2/workspace/app-service/service-mvc" />
   </component>

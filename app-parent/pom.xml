@@ -11,10 +11,12 @@
 		<mybatis-spring-version>1.2.0</mybatis-spring-version>
 		<druid-version>1.0.18</druid-version>
 		<servlet-api-version>2.5</servlet-api-version>
-		<fastjson-version>1.2.7</fastjson-version>
+		<fastjson-version>1.2.12</fastjson-version>
 		<aspectjrt-version>1.8.6</aspectjrt-version>
 		<mysql-version>5.1.38</mysql-version>
 		<dubbo-version>2.5.3</dubbo-version>
+		<zkclient-version>0.7</zkclient-version>
+		<jackson-version>2.7.3</jackson-version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -118,6 +120,33 @@
 				<artifactId>dubbo</artifactId>
 				<version>${dubbo-version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+			<dependency>
+				<groupId>com.101tec</groupId>
+				<artifactId>zkclient</artifactId>
+				<version>${zkclient-version}</version>
+			</dependency>
+
+
+			<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${jackson-version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-core</artifactId>
+				<version>${jackson-version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-annotations</artifactId>
+				<version>${jackson-version}</version>
+			</dependency>
+
 
 		</dependencies>
 	</dependencyManagement>
